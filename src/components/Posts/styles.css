@@ -1,0 +1,14 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+  }
+  
+  .post {
+    background: #fff;
+    padding: 30px;
+  }
+  
+  .post:hover {
+    transform: scale(1.01);
+  }
