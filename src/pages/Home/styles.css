@@ -9,3 +9,12 @@
   display: flex;
   align-items: flex-end;
 }
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.searche-value {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
