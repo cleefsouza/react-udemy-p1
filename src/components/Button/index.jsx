@@ -7,7 +7,7 @@ export const Button = ({ text, onClick, disabled }) => {
       onClick={onClick}
       disabled={disabled}
     >
-      { text}
+      {text}
     </button >
   );
 };
