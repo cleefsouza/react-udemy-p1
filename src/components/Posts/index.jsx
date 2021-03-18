@@ -2,7 +2,7 @@ import P from 'prop-types';
 import React from 'react';
 import './styles.css';
 
-export const Posts = ({ posts }) => (
+export const Posts = ({ posts = [] }) => (
   <div className="posts">
     {posts.map((post) => (
       <div className="post" key={post.id}>
