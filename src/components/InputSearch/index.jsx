@@ -1,3 +1,5 @@
+import P from 'prop-types';
+import React from 'react';
 import './styles.css';
 
 export const InputSearch = ({ value, onChange }) => {
@@ -10,4 +12,9 @@ export const InputSearch = ({ value, onChange }) => {
       placeholder="Type your search"
     />
   )
+}
+
+InputSearch.propTypes = {
+  value: P.string,
+  onChange: P.func
 }
